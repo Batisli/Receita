@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #f2f3f3, #ffffff);
+    /*degrade de cor*/
+    min-height: 100vh;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.gerador {
+
+    padding: 30px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(160, 160, 20);
+    margin: 20px auto;
+    font-size: 60px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+}
+
+button {
+    background-color: #4285f4;
+    color: #f8f9fa;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.botoes {
+    text-align: center;
+}
+
+.card {
+
+    background-color: rgb(250, 240, 221);
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+.junior{
+    border: 3px solid blue;
+}

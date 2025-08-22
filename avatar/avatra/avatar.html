@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="avatar.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1> Craidor de avatar</h1>
+        <div id="avatar" class="avatar">😎</div>
+
+        <div class=perfil>
+            <h2 id="visitante"> Visitante</h2>
+            <p id="bio">Descrição</p>
+            <p id="status">Status: online</p>
+
+        </div>
+
+        <section>
+            <h3> Cores</h3>
+            <button onclick="alterarrosa()" class="btn-rosa">💗Rosa</button>
+            <button onclick="alterarazul()" class="btn-azul">💙Azul</button>
+            <button onclick="alterarverde()" class="btn-verde">💚Verde</button>
+            <button onclick="alterarroxo()" class="btn-roxo">💜Roxo</button>
+            <button onclick="alterarlaranja()" class="btn-laranja">🧡Laranja</button>
+
+        </section>
+
+        <section>
+            <h3>Expressões</h3>
+            <button onclick="feliz()">😁Feliz</button>
+            <button onclick="triste()">☹️Triste</button>
+            <button onclick="bravo()">😡Bravo</button>
+            <button onclick="surpreso()">🫢Surpreso</button>
+            <button onclick="apaixonado()">🥰Apaixonado</button>
+        </section>
+
+        <section>
+            <h3>Perfil</h3>
+            <button onclick="nome()">✏️Mudar nome</button>
+            <button onclick="bio()">🖋️Mudar bio</button>
+            <button onclick="online()"> 🟢online</button>
+            <button onclick="ocupado()">🟡Ocupado</button>
+            <button onclick="ausente()">🔴Ausente</button>
+
+        </section>
+
+        <section>
+            <h3 id="Efeitos">Efeitos</h3>
+            <button onclick="invisivel()">Invisivel</button>
+            <button onclick="visivel()">Visivel</button>
+            <button onclick="recarrgar()">Recarregar</button>
+        </section>
+    </div>
+    
+    <script src="avatar.js"></script>
+
+</body>
+
+</html>

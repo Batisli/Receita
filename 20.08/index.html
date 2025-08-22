@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fundo-preto {
+            background-color: black;
+            color: beige
+        }
+
+        .destaque {
+            background-color: yellow;
+            color: brown;
+            padding: 10px;
+            border: 2px solid orange;
+            margin: 5px;
+        }
+
+        .texto {
+            background-color: aquamarine;
+            color: brown;
+            border: 2px solid white;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body id="app">
+    <h1> Criando elemntos com javascript</h1>
+
+    <h2>1. creatElement()</h2>
+    <p>O creatElement() cria um novo elemento HTML</p>
+
+    <div id="areal">
+
+        <p>Area vão aparecer os novos elementos </p>
+
+    </div>
+
+    <button onclick="exemploCreateElement()">Criar um paragrafo</button>
+    <button onclick="creattitulo()">Criar um titulo</button>
+
+    <hr>
+
+
+    <h2>2. appendChild()</h2>
+    <p>O appendChild adiciona um elemnto como filho de outro elemento</p>
+
+    <div id="area2">
+        <p>Lista de itens:</p>
+        <ul id="lista">
+            <li> Morango</li>
+
+        </ul>
+
+        <button onclick="item()"> Adicionar item na Lista</button>
+
+        <script src="script.js"></script>
+
+    </div>
+
+    <hr>
+
+    <h2>3. Adiconando classes</h2>
+    <p>Podemos Adicionar classes do CSS aos elementos</p>
+
+    <div id="area3">
+        <p>Elementos com classe aparece aqui</p>
+    </div>
+
+    <button onclick="criarclasse()"> Criar elemntos com classe</button>
+    <button onclick="alterarcorsite()">Alterar a cor do site</button>
+    <button onclick="texto()">Criar texto importante</button>
+
+    <hr>
+
+    <h2>4. Inner HTML</h2>
+    <P>cOM INNERhtml podemos inserir o HTML completo, não só texto</P>
+
+    <div ID="area4">
+        <p>HTML completo APAREC aqui</p>
+    </div>
+
+    <button onclick="criarCard()">Criar um card</button>
+    <button onclick="apagartudo()">aPAGAR TUDO</button>
+
+    <script src="script.js"></script>
+
+    <hr>
+
+    <h2>5. Remove Child</h2>
+    <p>O remove Child, remove um elemento da pagina</p>
+
+    <p>Elemnto para remover</p>
+    <div id="itensremover">
+        <p>Elemnto 1 - Cuique aqui para remover</p>
+        <p id="item1">Elemnto 2 - Cuique aqui para remover</p>
+        <p id="item2">Elemnto 3 - Cuique aqui para remover</p>
+</div>
+<button onclick="remove2()">remover 2 </button>
+<button onclick="remove3()">remover 3</button>
+</body>
+
+</html>

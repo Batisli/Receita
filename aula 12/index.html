@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Trabalhando com formulario e inputs </h1>
+
+    <h2>1 inputs Básicos</h2>
+
+    <label>Nome:</label>
+    <input id="inputnome" type="text" placeholder="Digite seu nome">
+    <button onclick="mostrarnome()">Mostrar Nome</button>
+
+    <br></br>
+
+    <label>Idade:</label>
+    <input id="inputidade" type="number" max="120" min="1">
+    <button onclick="mostraridade()">Mostrar Idade</button>
+
+    <br></br>
+
+
+    <label>Email</label>
+    <input id="inputemail" type="email">
+    <button onclick="mostraremail()">Mostrar Email</button>
+
+    <div id="resultados1">
+        <p>Os resultados vão aparecer aqui</p>
+    </div>
+
+    <hr>
+
+    <h2>2 Diferentes tipos de input</h2>
+
+    <label>Data de Nascimento</label>
+    <input id="inputidade" type="date">
+    <button onclick="mostrardata()">Mostrar Data </button>
+
+    <br></br>
+
+    <label>Cor favorita</label>
+    <input id="inputcor" type="color">
+    <button onclick=" mostrarcor()">Mostrar Cor</button>
+
+    <br></br>
+
+    <label>Aceitar os termos</label>
+    <input id="inputcheckbox" type="checkbox">
+    <button onclick="verificarcheckbox">Verificar</button>
+
+    <hr>
+
+    <h2>3 Select (lista) e Radio Button</h2>
+
+    <label>ESTADO CIVIL</label>
+    <select>
+        <option value="">Selecione...</option>
+        <option value="">Solteiro(a)</option>
+        <option value="">Casado(a)</option>
+        <option value="">Viúvo</option>
+        <option value="">Divorciado</option>
+    </select>
+
+    <button> Mostrar estado</button>
+
+    <br></br>
+
+    <label>Gênero</label>
+    <br>
+    <input type="radio" name="genero" value="masculino">
+    <label>Masculino</label>
+    <br>
+    <input type="radio" name="genero" value="feminino">
+    <label>feminino</label>
+    <br>
+    <input type="radio" name="genero" value="outros">
+    <label>Outros</label>
+
+    <br>
+
+    <label>Comentários</label>
+    <br>
+
+    <textarea maxlength="20"></textarea>
+    <br>
+    <button>Mostrar Comentários</button>
+
+    <div>
+        <p>Resultados do select, radio e textarea</p>
+    </div>
+
+    <script src="scripr.js"></script>
+
+</body>
+
+</html>
